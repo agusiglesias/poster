@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Helvetica", sans-serif;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(5,1fr);
+    grid-gap: 1rem;
+    width: 50%;
+    margin: 0px auto;
+    padding: 20px;
+    height: 100vh;
+}
+
+.container p{
+    padding: 5px;;
+    font-size: 12px;
+
+}
+
+.one{
+    grid-column: 1/2;
+    grid-row: 1;
+    width: 
+}
+
+.two{
+    grid-column: 2/3;
+    grid-row: 1;
+     align-self: end;
+}
+
+.three{
+    grid-column: 3/4;
+    grid-row: 1;
+}
+
+
+h1{
+    font-size: 20vh;
+}
+
+.titles{
+    width: 100%;
+    position: relative;
+    display: flex
+}
